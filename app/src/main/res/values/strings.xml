@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppEmpresaABC</string>
+    <string name="usuario">Usuário:</string>
+    <string name="sair">Sair</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha:</string>
+    <string name="tablet">Tablets</string>
+    <string name="fone">Fones</string>
+    <string name="hardware">Hardware</string>
+    <string name="camera">Câmera</string>
+    <string name="celular">Celular</string>
+    <string name="computador">Computador</string>
+
+</resources>

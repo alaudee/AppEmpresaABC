@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MenuPrincipalActivity">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/borda"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Menu Principal"
+            android:textSize="40dp" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp">
+
+            <Button
+                android:id="@+id/btnCelular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/celular"
+                android:padding="20dp"
+                android:text="@string/celular" />
+
+            <Button
+                android:id="@+id/btnCamera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/btnCelular"
+                android:drawableTop="@drawable/camera"
+                android:padding="20dp"
+                android:text="@string/camera" />
+
+            <Button
+                android:id="@+id/btnComputador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnCelular"
+                android:drawableTop="@drawable/computador"
+                android:padding="20dp"
+                android:text="@string/computador" />
+
+            <Button
+                android:id="@+id/btnFone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnCelular"
+                android:layout_toRightOf="@id/btnCelular"
+                android:drawableTop="@drawable/fone"
+                android:padding="20dp"
+                android:text="@string/fone" />
+            <Button
+                android:id="@+id/btnHardware"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnComputador"
+                android:layout_toRightOf="@id/btnCelular"
+                android:drawableTop="@drawable/hardware"
+                android:padding="20dp"
+                android:text="@string/fone" />
+            <Button
+                android:id="@+id/btnFone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnComputador"
+                android:drawableTop="@drawable/tablet"
+                android:padding="20dp"
+                android:text="@string/fone" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
